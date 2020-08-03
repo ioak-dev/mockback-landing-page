@@ -1,4 +1,0 @@
-{
-  "title": "Use <span class='emphasize-text'>API versioning</span> to match realworld endpoints",
-  "description": "You can create different specifications for the same domain or operation, with multiple versions. Mock API versioning can be a reflection of your real API versioning."
-}
