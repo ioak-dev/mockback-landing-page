@@ -20,6 +20,7 @@ import BusinessFlowSection from "../components/BusinessFlowSection"
 
 import highlightContentOne from "../assets/content/HighlightSectionOne.json"
 import highlightContentTwo from "../assets/content/HighlightSectionTwo.json"
+import highlightContentThree from "../assets/content/HighlightSectionThree.json"
 
 const IndexPage = () => (
   <div className="page-home">
@@ -29,6 +30,7 @@ const IndexPage = () => (
     <BusinessFlowSection />
     <SpecialitySection data={highlightContentTwo} />
     <KeySection />
+    <SpecialitySection data={highlightContentThree} />
 
     {/* <AiSection />
     <KeySection />

@@ -1,11 +1,10 @@
 import React from "react"
 import "./style.scss"
-import OakButton from "../oakfly/OakButton"
 import HeaderSection from "../HeaderSection"
-import CallToAction from "./CallToAction"
 import HeroContent from "./HeroContent"
 import Illustration from "./Illustration"
 import content from "../../assets/content/HeroSection.json"
+import OakAnimateElement from "../oakfly/OakAnimateElement"
 
 export default function HeroSection() {
   return (
@@ -13,8 +12,12 @@ export default function HeroSection() {
       <div className="hero-section--container column-layout">
         <HeaderSection />
         <div className="hero-section--container--content">
-          <Illustration illustration={content.illustration} />
-          <HeroContent data={content} />
+          <OakAnimateElement direction="right">
+            <Illustration illustration={content.illustration} />
+          </OakAnimateElement>
+          <OakAnimateElement direction="up">
+            <HeroContent data={content} />
+          </OakAnimateElement>
         </div>
       </div>
     </div>

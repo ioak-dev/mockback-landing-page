@@ -1,6 +1,6 @@
 {
   "title": "Mock <span class=\"emphasize-text\">REST API</span> to connect diverse teams",
-  "subtitle": "Optimizes development cycle by making a working API specification that development teams can rely on.",
+  "subtitle": "Optimize development cycle by defining a working API specification, that development teams can rely on as a live and evolving reference.",
   "illustration": "illustration/hero.svg",
   "callToAction": {
     "label": "Start mocking",

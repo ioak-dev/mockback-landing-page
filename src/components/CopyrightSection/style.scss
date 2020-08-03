@@ -1,22 +1,26 @@
 .copyright-section {
   display: grid;
   align-items: center;
-  justify-content: flex-end;
+  justify-content: center;
   grid-auto-flow: column;
   column-gap: 5px;
   font-size: 14px;
-  padding: 10px;
+  // padding: 10px;
+  padding: 100px 10px;
   column-gap: 10px;
+  background-color: var(--color-footer);
   @media (max-width: 767px) {
     // padding: 5px;
     font-size: 10px;
+    padding: 10px 10px;
   }
+  color: var(--color-background-1);
   span {
     color: grey;
   }
   a {
     text-decoration: none;
-    color: var(--color-foreground-2);
+    color: var(--color-background-1);
     &:hover {
       text-decoration: underline;
     }

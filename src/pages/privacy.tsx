@@ -9,7 +9,9 @@ import CopyrightSection from "../components/CopyrightSection"
 const PrivacyPage = () => (
   <div className="page-privacy">
     <SEO title="Privacy policy" />
-    <HeaderSection black />
+    <div className="column-layout">
+      <HeaderSection black />
+    </div>
     <PrivacySection />
     <FooterSection />
     <CopyrightSection />

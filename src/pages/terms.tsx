@@ -9,7 +9,9 @@ import CopyrightSection from "../components/CopyrightSection"
 const TermsPage = () => (
   <div className="page-terms">
     <SEO title="Terms and conditions" />
-    <HeaderSection black />
+    <div className="column-layout">
+      <HeaderSection black />
+    </div>
     <TermsSection />
     <FooterSection />
     <CopyrightSection />

@@ -7,7 +7,7 @@
     },
     {
       "faIcon": "icon/hex_random.svg",
-      "title": "Random data generation",
+      "title": "Automated domain data",
       "description": "You get randomly generated data for every record, everytime. Based on the datatype, system returns a random data that complies with the datatype specification."
     },
     {

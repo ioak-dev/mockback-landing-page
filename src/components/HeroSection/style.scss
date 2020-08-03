@@ -1,5 +1,5 @@
 .hero-section {
-  background-color: var(--color-foreground-1);
+  background-color: var(--color-header);
   .hero-section--container {
     min-height: 100vh;
     margin: auto;
@@ -15,8 +15,8 @@
       @media (max-width: 767px) {
         grid-auto-flow: row;
         align-items: center;
-        row-gap: 60px;
-        padding: 60px 0;
+        row-gap: 100px;
+        padding: 100px 0;
       }
       @media (min-width: 768px) {
         grid-template-columns: 1fr 1fr;
@@ -61,6 +61,7 @@
 .hero-illustration {
   display: flex;
   justify-content: flex-start;
+  width: 100%;
   @media (max-width: 767px) {
     justify-content: center;
   }
