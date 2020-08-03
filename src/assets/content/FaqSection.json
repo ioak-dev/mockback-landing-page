@@ -1,0 +1,32 @@
+{
+  "data": [
+    {
+      "title": "How does Mockback compare to a traditional customer support ticketing system?",
+      "description": "Traditional customer support systems are based on one to one communication. This means, there is a customer support representative who will answer a specific customer in one form (usually over telephone or email or chat). <br/><br/>Mockback is based on a many to one communication model, that lets a customer question answered by other customers and support representatives. Same question can be followed or referenced by other customers. This helps to speed up the resolution time and also reduces the need for customer support representatives. You can operate your application efficiently with limited number of support."
+    },
+    {
+      "title": "What are wiki articles and how does it differ from other articles?",
+      "description": "Wiki articles are the internal wiki pages used by the application development, management and support team to maintain their knowledge. These articles are secured and restricted only to application providers and not the end users. Wiki articles are protected by Moderator role. <br/><br/>Articles are the common section of the knowledge base that are addressed to end users usually in the form of frequently asked questions and the answers to them."
+    },
+    {
+      "title": "What value addition does my business gets, by using Mockback?",
+      "description": "Optimizes overall efficiency of the support workflow, by eliminating duplicate and redundancy in the system. Increases customer satisfaction of your product by reducing the response time for a customer question."
+    },
+    {
+      "title": "What is the difference between a tag and a category?",
+      "description": "Category is a hierarchical way to organize your content. Tag is an unstructured context based classification that lets you add relevant contexts to a content."
+    },
+    {
+      "title": "How do I get to know if a question is answered?",
+      "description": "You can follow any post in the forum. When you follow a post that is not answered yet, you will receive an email notification when it is answered or commented. In addition, you can see all the posts that you are following in a single place (my posts)."
+    },
+    {
+      "title": "What is an asset and how is it different from space?",
+      "description": "For any application that you would like to add support in mockback, you create an asset. An asset represents single application. <br/><br/>Space represents a single company. Any company looking for to use your application can use Oneauth to create a space and use that to access Mockback. When you use the JWT token based redirection from your app to Mockback, this is not relevant."
+    },
+    {
+      "title": "What password should I use to encode my data as JWT tokens while redirecting to Mockback?",
+      "description": "Token passwords, are part of the asset configuration and you set the password of your choice. Whatever password you would like to use in your app for encoding, set the same password in asset configuration."
+    }
+  ]
+}

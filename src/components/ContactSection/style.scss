@@ -1,0 +1,62 @@
+.contact-section {
+  padding: 50px 0;
+  background-image: linear-gradient(
+      to right,
+      rgba(22, 26, 32, 0.5),
+      rgba(22, 26, 32, 0.5)
+    ),
+    url("../../assets/primary_bg.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center center;
+  .contact-section--container {
+    padding: 30px 20px;
+    display: grid;
+    grid-auto-flow: row;
+    row-gap: 20px;
+    .contact-section--container--content {
+      display: grid;
+      grid-auto-flow: row;
+      row-gap: 20px;
+      color: white;
+      justify-content: center;
+      text-align: center;
+    }
+    .contact-section--container--form {
+      margin-top: 30px;
+      display: flex;
+      justify-content: center;
+    }
+  }
+}
+
+.contact-form {
+  display: grid;
+  grid-auto-flow: row;
+  row-gap: 20px;
+
+  @media (min-width: 768px) {
+    width: 80%;
+  }
+  form {
+    display: grid;
+    grid-auto-flow: row;
+    row-gap: 20px;
+  }
+  .contact-form--action {
+    display: grid;
+    justify-content: center;
+    @media (min-width: 768px) {
+      grid-auto-flow: column;
+      column-gap: 20px;
+    }
+    @media (max-width: 767px) {
+      grid-auto-flow: row;
+      row-gap: 20px;
+    }
+    button.oak-button.appear.light {
+      color: white;
+    }
+  }
+}

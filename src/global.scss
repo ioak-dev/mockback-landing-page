@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto|Montserrat|Open+Sans|Open+Sans+Condensed:300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400;1,500&display=swap");
+@import "../node_modules/@fortawesome/fontawesome-free/css/all.min.css";
+
+* {
+  --color-header: #2b2930;
+  --color-footer: #2b2930;
+  --color-primary-1: rgba(212, 55, 71, 1); //d43747
+  --color-primary-2: rgba(212, 55, 71, 0.9);
+  --color-secondary-1: #ffdb6a;
+  --color-secondary-2: #ffde70;
+  --color-default-1: #737373;
+  --color-default-2: #7b7885;
+  --metric-formelement-height: 40px;
+  --metric-formelement-height-mobile: 36px;
+
+  --color-background-1: #ffffff;
+  --color-background-2: #ebedef;
+  --color-background-3: #f2f3f5;
+  --color-background-4: #ffffff;
+  --color-background-5: #ffffff;
+
+  --color-foreground-1: #202225;
+  --color-foreground-2: #292b2f;
+  --color-foreground-3: #2f3136;
+  --color-foreground-4: #2f3136;
+  --color-foreground-5: #2f3136;
+
+  --color-background-section-1: #0a183d;
+  --color-background-section-2: #1c294a;
+  margin: 0;
+  padding: 0;
+  line-height: normal;
+  font-family: "Work Sans", sans-serif;
+  font-family: "Montserrat", sans-serif;
+  word-break: break-word;
+
+  .space-bottom-1 {
+    margin-bottom: 1.45rem;
+  }
+
+  .heading--1 {
+    font-size: 60px;
+    font-weight: 600;
+    font-family: "Work Sans", sans-serif;
+    // font-family: "Montserrat", sans-serif;
+    @media (max-width: 767px) {
+      font-size: 34px;
+    }
+  }
+
+  .heading--2 {
+    font-size: 50px;
+    font-weight: 600;
+    font-family: "Work Sans", sans-serif;
+    // font-family: "Montserrat", sans-serif;
+    @media (max-width: 767px) {
+      font-size: 30px;
+    }
+  }
+
+  .heading--3 {
+    font-size: 26px;
+    font-weight: 400;
+    font-family: "Work Sans", sans-serif;
+    // font-family: "Montserrat", sans-serif;
+    @media (max-width: 767px) {
+      font-size: 20px;
+    }
+  }
+
+  .heading--4 {
+    font-size: 20px;
+    font-weight: 400;
+    font-family: "Work Sans", sans-serif;
+    @media (max-width: 767px) {
+      // font-size: 1em;
+      font-size: 16px;
+    }
+  }
+
+  .column-layout {
+    padding: 0 100px;
+    @media (max-width: 767px) {
+      padding: 0 20px;
+    }
+    margin: auto;
+  }
+
+  p {
+    font-size: 16px;
+    line-height: 30px;
+  }
+
+  .soft-font {
+    color: #4b4c60;
+  }
+
+  .mobile-only {
+    @media (min-width: 768px) {
+      display: none !important;
+    }
+  }
+  .desktop-only {
+    @media (max-width: 767px) {
+      display: none !important;
+    }
+  }
+
+  .emphasize-text {
+    color: var(--color-primary-1);
+    display: inline;
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "tour": {
+    "title": "Would you like a demo?",
+    "description": "Take a live tour of the application. Explore all of the application features, in the fully functional demo space.",
+    "callToAction": {
+      "label": "Live tour",
+      "faIcon": "fas fa-dove"
+    }
+  },
+  "cta": {
+    "title": "Why wait? Optimize your workflow today",
+    "description": "Take a live tour of the application. Explore all of the application features, in the fully functional demo space.",
+    "callToAction": {
+      "label": "Create Asset",
+      "faIcon": "fas fa-play"
+    }
+  }
+}

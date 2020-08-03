@@ -1,0 +1,108 @@
+.footer-section {
+  background-color: var(--color-footer);
+  // margin: 50px 0;
+  padding: 80px 0;
+  color: white;
+  // background-image: linear-gradient(
+  //     to right,
+  //     rgba(22, 26, 32, 0.5),
+  //     rgba(22, 26, 32, 0.5)
+  //   ),
+  //   url("../../assets/primary_bg.jpg");
+  // background-repeat: no-repeat;
+  // background-attachment: fixed;
+  // background-size: cover;
+  // background-position: center center;
+
+  .footer-section--container {
+    display: grid;
+    justify-content: center;
+    width: 90vw;
+    margin: auto;
+    @media (min-width: 768px) {
+      grid-template-columns: 1fr 1fr 1fr;
+      column-gap: 20px;
+      justify-items: center;
+    }
+    @media (max-width: 767px) {
+      grid-auto-flow: row;
+      row-gap: 60px;
+    }
+  }
+}
+
+.company-profile {
+  display: grid;
+  grid-auto-flow: row;
+  row-gap: 20px;
+  align-content: flex-start;
+
+  img {
+    &.company-profile--logo--oneauth {
+      height: 20px !important;
+    }
+    &.company-profile--logo--ioak {
+      height: 20px !important;
+    }
+  }
+
+  .company-profile--logo {
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: flex-start;
+    align-items: center;
+    column-gap: 10px;
+  }
+}
+
+.company-contact {
+  display: grid;
+  row-gap: 10px;
+  align-items: flex-start;
+  align-content: flex-start;
+  .company-contact--title {
+    font-weight: bold;
+  }
+  .company-contact--contact {
+    display: grid;
+    row-gap: 5px;
+    align-items: flex-start;
+    .company-contact--contact--mode {
+      display: grid;
+      grid-auto-flow: column;
+      justify-content: flex-start;
+      align-items: center;
+      column-gap: 10px;
+      i {
+        font-size: 1em;
+      }
+    }
+  }
+}
+
+.footer-links {
+  display: grid;
+  grid-auto-flow: row;
+  row-gap: 20px;
+  align-content: flex-start;
+}
+
+.footer-link-group {
+  display: grid;
+  grid-auto-flow: row;
+  row-gap: 5px;
+  .footer-link-group--title {
+    font-weight: bold;
+  }
+  .footer-link-group--content {
+    display: grid;
+    row-gap: 5px;
+    a {
+      text-decoration: none;
+      color: #f0f0f0;
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+}

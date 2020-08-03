@@ -1,0 +1,33 @@
+.faq-section {
+  padding: 50px 0;
+  // background-image: linear-gradient(
+  //     to right,
+  //     rgba(22, 26, 32, 0.5),
+  //     rgba(22, 26, 32, 0.5)
+  //   ),
+  //   url("../../assets/ai-5202869.jpg");
+  // background-repeat: no-repeat;
+  // // background-attachment: fixed;
+  // background-size: cover;
+  // background-position: center center;
+  // color: white;
+  .faq-section--container {
+    display: grid;
+    justify-content: center;
+    grid-auto-flow: row;
+    row-gap: 20px;
+    .faq-section--container--title {
+      margin-bottom: 20px;
+    }
+  }
+}
+
+.sectiontile {
+  display: grid;
+  grid-auto-flow: row;
+  align-content: flex-start;
+  row-gap: 10px;
+  .sectiontile--faq-title {
+    font-weight: bold;
+  }
+}

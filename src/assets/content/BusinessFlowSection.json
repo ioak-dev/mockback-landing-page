@@ -1,0 +1,19 @@
+{
+  "data": [
+    {
+      "svgIcon": "icon/newfile.svg",
+      "title": "Create a project",
+      "description": "A project is a collection of API endpoint specifications. Create a project to logically group all your API mocks related to your project. You can add several endpoint definitions into a project."
+    },
+    {
+      "svgIcon": "icon/code.svg",
+      "title": "Define an endpoint",
+      "description": "Add an API endpoint specification by either defining it's domain for CRUD operations, or by defining the input and output attributes of a endpoint. Copy the generated URLs to call from your application."
+    },
+    {
+      "svgIcon": "icon/plug.svg",
+      "title": "Plug in endpoint",
+      "description": "Call the copied URLs from your application. Everytime you call an API, Mockback returns a randomly generated data for its domain (or list of randomly generated domain data)."
+    }
+  ]
+}
