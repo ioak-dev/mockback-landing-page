@@ -13,7 +13,7 @@ export default function CallToAction(props: Props) {
   return (
     <div className="call-to-action">
       <OakButton
-        action={() => (window.location.href = "https://app.mockback.ioak.io")}
+        action={() => (window.location.href = "https://mockback-app.ioak.io")}
         faIcon={props.data.faIcon}
         theme={props.theme || "primary"}
         variant="regular"

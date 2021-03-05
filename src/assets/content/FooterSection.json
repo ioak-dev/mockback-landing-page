@@ -30,19 +30,19 @@
       "group": "Help and Support",
       "list": [
         {
-          "href": "https://app.mockback.ioak.io/#/a1/article/browse",
+          "href": "https://mockback-app.ioak.io/#/a1/article/browse",
           "label": "Frequently asked questions"
         },
         {
-          "href": "https://app.mockback.ioak.io/#/a1/article/browse?categoryid=5eda9fff230dba0017a0f25a",
+          "href": "https://mockback-app.ioak.io/#/a1/article/browse?categoryid=5eda9fff230dba0017a0f25a",
           "label": "Use cases"
         },
         {
-          "href": "https://app.mockback.ioak.io/#/a1/post/create",
+          "href": "https://mockback-app.ioak.io/#/a1/post/create",
           "label": "Ask question"
         },
         {
-          "href": "https://app.mockback.ioak.io/#/a1/article/view?id=5ee71e34aacadc00177e63fa",
+          "href": "https://mockback-app.ioak.io/#/a1/article/view?id=5ee71e34aacadc00177e63fa",
           "label": "API documentation"
         },
         {
